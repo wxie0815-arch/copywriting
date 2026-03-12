@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/badge/version-1.1.0-blue)](https://github.com/wxie0815-arch/copywriting)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Compatible-green)](https://openclaw.ai)
-[![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > 将结构化写作计划转化为高质量文案初稿。专为加密货币、Web3领域内容创作优化，支持9种文章风格。
 
@@ -37,39 +37,7 @@ gh repo clone wxie0815-arch/copywriting
 
 ### 独立使用
 
-```python
-from writing_skill import WritingSkill
-
-skill = WritingSkill()
-draft = skill.write_draft(
-    writing_plan={
-        "core_argument": "Layer2正引领加密市场新一轮创新",
-        "target_audience": "有经验的投资者",
-        "key_points": ["技术突破", "资金流入", "生态价值"],
-        "structure": {
-            "introduction": "用数据开头",
-            "body": ["技术分析", "资金分析"],
-            "conclusion": "给出建议"
-        }
-    },
-    style_fingerprint="用户历史写作风格..."
-)
-print(draft)
-```
-
-## 📋 支持的文章风格
-
-| 风格 | 类型 | 适用场景 |
-|------|------|---------|
-| `daily_express` | 官方推荐 | 日常市场快讯 |
-| `deep_analysis` | 官方推荐 | 深度市场分析 |
-| `onchain_insight` | 官方推荐 | 链上数据洞察 |
-| `meme_hunter` | 官方推荐 | Meme币追踪 |
-| `kol_style` | 扩展 | KOL个人观点 |
-| `tutorial` | 扩展 | 教程科普内容 |
-| `trading_signal` | 扩展 | 交易信号分析 |
-| `project_research` | 扩展 | 项目深度研究 |
-| `oracle` | 默认 | 综合预言机报告 |
+详细的 Prompt 指令、输入输出格式和示例，请参考 `SKILL.md`。
 
 ## 🔗 相关 Skill
 
@@ -81,8 +49,7 @@ print(draft)
 
 ## 📄 许可证
 
-MIT License — 自由使用、修改和分发。
-
+MIT License
 
 ---
 

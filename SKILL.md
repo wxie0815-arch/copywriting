@@ -1,9 +1,6 @@
 ---
 name: copywriting
-version: 1.1.0
-description: 根据结构化的写作计划，撰写高质量、引人入胜的文案初稿。专为加密货币、Web3领域内容创作优化，支持多种文章风格。
-author: wxie0815-arch
-tags: [writing, copywriting, crypto, content-creation]
+description: 根据结构化的写作计划，撰写高质量、引人入胜的文案初稿。专为加密货币、Web3领域内容创作优化，支持多种文章风格。是三阶段写作流程的第二阶段，接收writing-plans的输出并生成文章初稿。
 ---
 
 # Copywriting: 撰写文案初稿
@@ -105,42 +102,3 @@ writing-plans  →  copywriting  →  humanizer-zh
 ```bash
 gh repo clone wxie0815-arch/copywriting
 ```
-
----
-
-## 💰 赞助支持
-
-如果这个项目对您有帮助，欢迎赞助支持！
-
-**BSC（BEP-20）钱包地址：**
- 
-
-支持 USDT / BNB / 任意 BEP-20 代币。感谢每一位支持者 🙏
-
-**作者：** 无邪Infinity | 币安广场 [@wuxie](https://www.binance.com/en/square/profile/wuxie) | X [@wuxie149](https://x.com/wuxie149)
-
----
-
-## 💰 赞助支持
-
-如果这个项目对您有帮助，欢迎赞助支持！
-
-**BSC（BEP-20）钱包地址：**
- 
-
-支持 USDT / BNB / 任意 BEP-20 代币。感谢每一位支持者 🙏
-
-**作者：** 无邪Infinity | 币安广场 [@wuxie](https://www.binance.com/en/square/profile/wuxie) | X [@wuxie149](https://x.com/wuxie149)
-
----
-
-## 💰 赞助支持
-
-如果这个项目对您有帮助，欢迎赞助支持！
-
-**BSC（BEP-20）钱包地址：**
-`0x3B74BE938caB987120C3661C8e3161CD838e5a1A` 
-
-支持 USDT / BNB / 任意 BEP-20 代币。感谢每一位支持者 🙏
-
-**作者：** 无邪Infinity | 币安广场 [@wuxie](https://www.binance.com/en/square/profile/wuxie) | X [@wuxie149](https://x.com/wuxie149)
